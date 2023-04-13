@@ -15,10 +15,10 @@ class ChooseServices extends StatefulWidget {
   const ChooseServices({Key? key}) : super(key: key);
 
   @override
-  _ChooseServicesState createState() => _ChooseServicesState();
+  ChooseServicesState createState() => ChooseServicesState();
 }
 
-class _ChooseServicesState extends State<ChooseServices> {
+class ChooseServicesState extends State<ChooseServices> {
   late final List<String> cleaningName;
   late final List<ServicesModel> services;
   late int indexServices;

@@ -15,10 +15,10 @@ import 'package:provider/provider.dart';
 class General extends StatefulWidget {
   const General({Key? key}) : super(key: key);
   @override
-  _GeneralState createState() => _GeneralState();
+  GeneralState createState() => GeneralState();
 }
 
-class _GeneralState extends State<General> {
+class GeneralState extends State<General> {
   late int currentIndex;
   late PageController pageControllerPage;
   late ScrollController pageControllerBackground;

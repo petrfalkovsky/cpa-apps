@@ -13,10 +13,10 @@ class DefaultContainer extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _DefaultContainerState createState() => _DefaultContainerState();
+  DefaultContainerState createState() => DefaultContainerState();
 }
 
-class _DefaultContainerState extends State<DefaultContainer> {
+class DefaultContainerState extends State<DefaultContainer> {
   @override
   Widget build(BuildContext context) {
     return Container(

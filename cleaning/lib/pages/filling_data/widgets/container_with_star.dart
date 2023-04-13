@@ -38,7 +38,8 @@ class _ContainerWithStarState extends State<ContainerWithStar> {
       ),
       child: SvgPicture.asset(
         'assets/images/star.svg',
-        color: AppConfig.whiteColor,
+        colorFilter:
+            const ColorFilter.mode(AppConfig.whiteColor, BlendMode.srcIn),
         width: 15,
         height: 15,
       ),

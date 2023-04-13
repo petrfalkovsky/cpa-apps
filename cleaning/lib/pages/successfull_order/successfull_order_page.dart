@@ -12,10 +12,10 @@ class SuccessFullOrderPage extends StatefulWidget {
   const SuccessFullOrderPage({Key? key}) : super(key: key);
 
   @override
-  _SuccessFullOrderPageState createState() => _SuccessFullOrderPageState();
+  SuccessFullOrderPageState createState() => SuccessFullOrderPageState();
 }
 
-class _SuccessFullOrderPageState extends State<SuccessFullOrderPage> {
+class SuccessFullOrderPageState extends State<SuccessFullOrderPage> {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;

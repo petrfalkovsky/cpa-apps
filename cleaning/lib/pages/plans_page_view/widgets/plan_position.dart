@@ -19,10 +19,10 @@ class PlanPosition extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _PlanPositionState createState() => _PlanPositionState();
+  PlanPositionState createState() => PlanPositionState();
 }
 
-class _PlanPositionState extends State<PlanPosition> {
+class PlanPositionState extends State<PlanPosition> {
   @override
   Widget build(BuildContext context) {
     return Stack(children: [

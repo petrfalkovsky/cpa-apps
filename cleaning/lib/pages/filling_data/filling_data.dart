@@ -17,10 +17,10 @@ class FillingData extends StatefulWidget {
   const FillingData({Key? key}) : super(key: key);
 
   @override
-  _FillingDataState createState() => _FillingDataState();
+  FillingDataState createState() => FillingDataState();
 }
 
-class _FillingDataState extends State<FillingData> {
+class FillingDataState extends State<FillingData> {
   late final TextEditingController controllerCity;
   late final TextEditingController controllerStreet;
   late final TextEditingController controllerHome;
@@ -379,6 +379,7 @@ class _FillingDataState extends State<FillingData> {
         totalPrice: controller.orderController.data!.totalPrice,
       );
       if (statusCode == 200) {
+        // ignore: use_build_context_synchronously
         Navigator.of(context)
             .push(CustomPageRoute(const SuccessFullOrderPage()));
       }

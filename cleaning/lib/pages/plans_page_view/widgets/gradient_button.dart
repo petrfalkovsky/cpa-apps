@@ -18,10 +18,10 @@ class GradientButton extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _GradientButtonState createState() => _GradientButtonState();
+  GradientButtonState createState() => GradientButtonState();
 }
 
-class _GradientButtonState extends State<GradientButton> {
+class GradientButtonState extends State<GradientButton> {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;

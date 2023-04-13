@@ -19,10 +19,10 @@ class Services extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _ServicesState createState() => _ServicesState();
+  ServicesState createState() => ServicesState();
 }
 
-class _ServicesState extends State<Services> {
+class ServicesState extends State<Services> {
   @override
   Widget build(BuildContext context) {
     return Row(
